@@ -5,6 +5,5 @@ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 curl 'https://raw.github.com/4711/dotfiles/master/vimrc' > ~/.vimrc
 curl 'https://raw.github.com/4711/dotfiles/master/.vimrc.local' > ~/.vimrc.local
 
-curl 'https://raw.github.com/4711/dotfiles/master/.bash_aliases' > ~/.bash.aliases      
-source ~/.bash.aliases
+curl 'https://raw.github.com/4711/dotfiles/master/.bash_aliases' > ~/.bash.aliases
 
