@@ -1,3 +1,5 @@
+# This is V-I-m
+alias vmi='vim'
 
 # My local IP
 alias lip='ifconfig eth0 | grep "inet addr" | cut -d ":" -f 2 | cut -d " " -f1'
@@ -8,6 +10,18 @@ alias eip='curl http://ifconfig.me'
 # Ping google
 alias poogle='ping google.com'
 
+# Decimal to hexadecimal value
+alias dec2hex='printf "%x\n" $1'
+
+#ls exploration
+alias lr='ls -R'
+alias ll='ls -lF'
+alias llr='ll -R'
+alias lll='ls -alF'
+alias le='ls --sort=extension'
+alias lle='ll --sort=extension'
+alias lt='ls --sort=time'
+alias llt='ll --sort=time'
 
 # Quick jump n directories
 alias cd..='cd ..'
