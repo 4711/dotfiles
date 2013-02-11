@@ -25,6 +25,8 @@ alias llt='ll --sort=time'
 
 # Quick jump n directories
 alias cd..='cd ..'
+alias ..='cd ..'
+alias ...='cd ../..'
 alias ..1='cd ..'
 alias ..2='cd ../..'
 alias ..3='cd ../../../'
