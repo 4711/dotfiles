@@ -24,7 +24,7 @@ set cursorline
 
 set spelllang=en_us,de_ch
 
-set noerrorbells visualbell t_vb=
+set noerrorbells novisualbell t_vb=
 
 set wildmenu
 set wildmode=list:longest
