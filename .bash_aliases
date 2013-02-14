@@ -7,7 +7,9 @@ alias lip='ifconfig eth0 | grep "inet addr" | cut -d ":" -f 2 | cut -d " " -f1'
 # My external IP
 # ifconfig.me seems to be slower than akamai.com
 # alias eip='curl http://ifconfig.me'
-alias eip='curl --max-time 2 -s http://whatismyip.akamai.com/ && echo'
+alias eip='curl --max-time 2 -s http://whatismyip.akamai.com/'
+
+alias ips='l=$(lip); w=$(eip); echo ⓛ $l ⓦ $w'
 
 # Ping google
 alias poogle='ping google.com'
