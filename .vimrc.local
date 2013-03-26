@@ -62,6 +62,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'xoria256.vim'
 Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-bundler'
 
 filetype plugin indent on     " required!
 
