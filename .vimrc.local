@@ -63,6 +63,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'xoria256.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tpope/vim-bundler'
+Bundle 'kchmck/vim-coffee-script'
 
 filetype plugin indent on     " required!
 
